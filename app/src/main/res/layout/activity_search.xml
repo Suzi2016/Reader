@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.suzi.reader.activitys.SearchActivity"
+    android:background="@color/bg_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue">
+        <Button
+            android:id="@+id/bt_search_back"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="搜索"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/bt_search_clear"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="清空"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_margin="16dp">
+        <EditText
+            android:id="@+id/et_search_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入书名或作者"
+            android:textSize="14sp"
+            android:background="@color/white"
+            android:layout_marginLeft="12dp"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/bt_search_search"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:background="@drawable/bt_style_search"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_search_noResultTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="没有搜索到小说~~"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="64dp"/>
+
+    <ListView
+        android:id="@+id/lv_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:layout_marginTop="12dp">
+
+    </ListView>
+
+</LinearLayout>

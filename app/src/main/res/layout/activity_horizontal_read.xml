@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_horizontal_read"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suzi.reader.activitys.HorizontalReadActivity">
+
+    <com.suzi.reader.horizontal_readmodel.ScanView
+        android:id="@+id/scanview_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/bt_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:visibility="gone"/>
+
+
+</FrameLayout>

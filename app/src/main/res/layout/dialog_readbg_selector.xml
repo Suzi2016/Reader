@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_0"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_05"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_1"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_01"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_02"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_3"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_03"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_4"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_04"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_5"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_06"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_6"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_07"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_7"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_08"/>
+
+            <TextView
+                android:id="@+id/tv_readbg_selector_8"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@color/read_bg_09"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

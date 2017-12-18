@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.suzi.reader.activitys.WelcomeActivity"
+    android:background="@color/gray_blue">
+
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="落落"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="海量免费小说"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="72dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_welcome_login"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:background="@drawable/bt_style_orange"/>
+
+        <Button
+            android:id="@+id/bt_welcome_register"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:background="@drawable/bt_style_green"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/bt_welcome_visitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="~随便看看~"
+            android:textColor="@color/blue"
+            android:background="@color/transparent"
+            android:layout_marginTop="12dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+

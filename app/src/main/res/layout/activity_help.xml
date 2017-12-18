@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suzi.reader.activitys.HelpActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue">
+        <Button
+            android:id="@+id/bt_help_back"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="帮助"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text=""
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_1"
+                android:textColor="@color/brown"
+                android:textSize="18sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_1"
+                android:textColor="@color/brown"
+                android:textSize="16sp"
+                android:layout_margin="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question_2"
+                android:textColor="@color/brown"
+                android:textSize="18sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_2"
+                android:textColor="@color/brown"
+                android:textSize="16sp"
+                android:layout_margin="12dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="【落落读者交流群】(长按可复制)"
+                android:textColor="@color/brown"
+                android:textSize="16sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qq_group"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textIsSelectable="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_novel_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suzi.reader.activitys.NovelListActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue">
+        <Button
+            android:id="@+id/bt_list_back"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_list_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="书库"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="清空"
+            android:textColor="@color/white"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/ll_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <ProgressBar
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="加载中..."
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

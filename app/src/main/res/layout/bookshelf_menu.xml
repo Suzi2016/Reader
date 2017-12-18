@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_style_shelfmenu"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_shelfmenu_name"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="小说的名字"
+            android:textColor="@color/brown"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/dark_gray"/>
+
+
+        <TextView
+            android:id="@+id/bt_shelfmenu_detail"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="详情"
+            android:textColor="@color/green"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/dark_gray"/>
+
+
+        <TextView
+            android:id="@+id/bt_shelfmenu_download"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="缓存"
+            android:textColor="@color/green"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/dark_gray"/>
+
+
+        <TextView
+            android:id="@+id/bt_shelfmenu_delete"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/red"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_shelfmenu_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bt_style_shelfmenu"
+        android:gravity="center"
+        android:text="取消"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

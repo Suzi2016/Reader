@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="green">#29acbe</color>
+    <color name="gray_green">#208391</color>
+    <color name="blue">#45b49b</color>
+    <color name="gray_blue">#348775</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#d9d9d9</color>
+    <color name="dark_gray">#a5a5a5</color>
+    <color name="brown">#434343</color>
+    <color name="transparent">#0000</color>
+    <color name="black">#000000</color>
+    <color name="french_gray">#e1e1e1</color>
+    <color name="bg_gray">#f2f2f2</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#f97731</color>
+    <color name="gray_orange">#c65e27</color>
+
+
+    <!--阅读背景颜色-->
+    <!--<color name="read_bg_01">#2b4439</color>-->
+    <!--<color name="read_bg_02">#2ea978</color>-->
+    <!--<color name="read_bg_03">#f2bfd6</color>-->
+    <!--<color name="read_bg_04">#c489fd</color>-->
+    <!--<color name="read_bg_05">#fdeeb3</color>-->
+    <!--<color name="read_bg_06">#8a9688</color>-->
+    <!--<color name="read_bg_07">#ffffff</color>-->
+    <!--<color name="read_bg_08">#000000</color>-->
+    <!--<color name="read_bg_09">#A39480</color>-->
+
+    <color name="read_bg_01">#FFFFFF</color>
+    <color name="read_bg_02">#FAF9DE</color>
+    <color name="read_bg_03">#FFF2E2 </color>
+    <color name="read_bg_04">#FDE6E0 </color>
+    <color name="read_bg_05">#E3EDCD</color>
+    <color name="read_bg_06">#DCE2F1 </color>
+    <color name="read_bg_07">#E9EBFE </color>
+    <color name="read_bg_08">#EAEAEF</color>
+    <color name="read_bg_09">#a6cca3</color>
+
+
+
+</resources>

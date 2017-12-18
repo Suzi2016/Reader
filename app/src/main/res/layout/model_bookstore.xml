@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/bg_gray"
+              android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="小说排行"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="14sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_allvisit"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="总排行榜"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="48dp"
+                        android:background="@color/gray"/>
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_allvote"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="总推荐榜"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_mouthvisit"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="月排行榜"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="48dp"
+                        android:background="@color/gray"/>
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_mouthvote"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="月推荐榜"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                </LinearLayout>
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_postdate"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="最新入库"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="48dp"
+                        android:background="@color/gray"/>
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_masterdate"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="转载更新"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                </LinearLayout>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_goodnum"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="总收藏榜"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="48dp"
+                        android:background="@color/gray"/>
+
+                    <TextView
+                        android:id="@+id/tv_bookstore_size"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="字数排行"
+                        android:textColor="@color/brown"
+                        android:textSize="16sp"
+                        android:background="@drawable/block_style_white"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/shadow_bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="12dp"
+                    android:text="小说大全"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="14sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:background="@drawable/block_style_white">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="玄幻魔法"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="武侠修真"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="都市言情"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="历史军事"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="侦探推理"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_06"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="网游动漫"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_07"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="科幻小说"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_08"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="恐怖灵异"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_09"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="散文诗词"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/gray"/>
+                <LinearLayout
+                    android:id="@+id/ll_bookstore_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/block_style_white"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="其他"
+                        android:textSize="16sp"
+                        android:textColor="@color/brown"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="24dp"/>
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/transparent"/>
+                    <TextView
+                        android:layout_width="12dp"
+                        android:layout_height="16dp"
+                        android:text=""
+                        android:textSize="14sp"
+                        android:textColor="@color/brown"
+                        android:background="@drawable/tiaozhuan"
+                        android:layout_marginRight="24dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/shadow_bottom"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:background="@color/transparent"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

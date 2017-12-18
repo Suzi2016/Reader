@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="间距越小"
+        android:gravity="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_fontspacing_selector_1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="1.1"
+        android:textSize="14sp"
+        android:textColor="@color/brown"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_gray"/>
+
+    <TextView
+        android:id="@+id/tv_fontspacing_selector_2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="1.3"
+        android:textSize="14sp"
+        android:textColor="@color/brown"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_gray"/>
+
+    <TextView
+        android:id="@+id/tv_fontspacing_selector_3"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="1.5"
+        android:textSize="14sp"
+        android:textColor="@color/brown"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_gray"/>
+
+    <TextView
+        android:id="@+id/tv_fontspacing_selector_4"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="1.7"
+        android:textSize="14sp"
+        android:textColor="@color/brown"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_gray"/>
+
+    <TextView
+        android:id="@+id/tv_fontspacing_selector_5"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="1.9"
+        android:textSize="14sp"
+        android:textColor="@color/brown"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="间距越大"
+        android:gravity="center"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
